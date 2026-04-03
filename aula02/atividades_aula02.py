@@ -21,20 +21,3 @@ salario_tot = salario + aumt
 
 print(f'\nSalário: R${salario:.2f}.\nBônus do mês: R${aumt:.2f}.\nSalário final: R${salario_tot:.2f}.')
 
-#Atividade 04 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
-n = int(input('Informe um número: '))
-dobro = n * 2
-triplo = n * 3 
-quad = n ** 2
-
-print (f'O numero: {n}\nO dobro: {dobro}\nO triplo: {triplo}\nO quadrado: {quad}')
-
-#Atividade 05 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-nota1 = float(input('Informe a nota da AV1: '))
-nota2 = float(input('Informe a nota da AV2: '))
-nota3 = float(input('Informe a nota da AV3: '))
-nota4 = float(input('Informe a nota da AV4: '))
-
-med_final = (nota1 + nota2 + nota3 + nota4) / 4
-print(f'A média do aluno foi: {med_final:.1f}')
